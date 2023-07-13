@@ -2,7 +2,7 @@
 {
     internal class Person
     {
-        internal string Name;
+        internal string? Name;
 
         internal void Introduce(string to)
         {
