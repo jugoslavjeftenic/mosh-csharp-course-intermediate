@@ -1,10 +1,5 @@
 ﻿namespace t02_10_01_ClassesExercise1_stopwatch
 {
-    internal class Stopwatch
-    {
-        private DateTime Start { get; set; }
-        private DateTime Stop { get; set; }
-    }
     internal class Program
     {
         static void Main(string[] args)
@@ -26,7 +21,29 @@
             // The class should not reveal its implementation detail. It only reveals a little bit, like a blackbox.
             // From the outside, you should not be able to misuse a class because you shouldn’t be able to see the implementation detail.
 
-            Console.WriteLine("Hello, World!");
+            var stopwatch = new Stopwatch();
+            var random = new Random();
+
+            for (int i = 1; i < 4; i++)
+            {
+                stopwatch.Start();
+
+                Thread.Sleep(random.Next(0, 3) * 1000);
+
+                stopwatch.Stop();
+                Console.WriteLine(
+                    $"[{i}] Start: {stopwatch.StartTime.ToShortTimeString()}," +
+                    $" Stop: {stopwatch.StopTime.ToShortTimeString()}, Duration: {stopwatch.Duration}");
+
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Start twice situation.");
+            stopwatch.Start();
+            Console.WriteLine($"Start: {stopwatch.StartTime.ToShortTimeString()}");
+
+            stopwatch.Start();
+            Console.WriteLine($"Start: {stopwatch.StartTime.ToShortTimeString()}");
         }
     }
 }
