@@ -1,5 +1,9 @@
 ﻿namespace t02_10_01_ClassesExercise1_stopwatch
 {
+    internal class Stopwatch
+    {
+        private DateTime _start;
+    }
     internal class Program
     {
         static void Main(string[] args)
