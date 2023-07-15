@@ -2,7 +2,8 @@
 {
     internal class Stopwatch
     {
-        private DateTime _start;
+        private DateTime Start { get; set; }
+        private DateTime Stop { get; set; }
     }
     internal class Program
     {
