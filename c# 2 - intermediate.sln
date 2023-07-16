@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_01_Classes", "t02_01_Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_02_Constructors", "t02_02_Constructors\t02_02_Constructors.csproj", "{300ED40E-90B1-418E-A329-4C8F8CC8C287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_04_Methods", "t02_04_Methods\t02_04_Methods.csproj", "{CDF53DF2-8EAD-47D0-8900-4D2648FC5D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_04_Methods", "t02_04_Methods\t02_04_Methods.csproj", "{CDF53DF2-8EAD-47D0-8900-4D2648FC5D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_05_Fields", "t02_05_Fields\t02_05_Fields.csproj", "{43C50E6E-5720-4BBC-98C2-4869C1ABE26A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_05_Fields", "t02_05_Fields\t02_05_Fields.csproj", "{43C50E6E-5720-4BBC-98C2-4869C1ABE26A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_06_AccesModifiers", "t02_06_AccesModifiers\t02_06_AccesModifiers.csproj", "{3D39BB80-7094-4448-B14E-AE79BF9A7A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_06_AccesModifiers", "t02_06_AccesModifiers\t02_06_AccesModifiers.csproj", "{3D39BB80-7094-4448-B14E-AE79BF9A7A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_07_Properties", "t02_07_Properties\t02_07_Properties.csproj", "{D0DC2300-A7BD-4F5C-8210-69429570589A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_07_Properties", "t02_07_Properties\t02_07_Properties.csproj", "{D0DC2300-A7BD-4F5C-8210-69429570589A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_08_Indexers", "t02_08_Indexers\t02_08_Indexers.csproj", "{D8158145-04A2-45B4-8B51-0CF1D5019304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_08_Indexers", "t02_08_Indexers\t02_08_Indexers.csproj", "{D8158145-04A2-45B4-8B51-0CF1D5019304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_10_01_ClassesExercise1_stopwatch", "t02_10_01_ClassesExercise1_stopwatch\t02_10_01_ClassesExercise1_stopwatch.csproj", "{14699F32-BE24-432D-A35A-A637E294F596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_10_01_ClassesExercise1_stopwatch", "t02_10_01_ClassesExercise1_stopwatch\t02_10_01_ClassesExercise1_stopwatch.csproj", "{14699F32-BE24-432D-A35A-A637E294F596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t02_10_02_ClassesExercise2_stackOverflowPost", "t02_10_02_ClassesExercise2_stackOverflowPost\t02_10_02_ClassesExercise2_stackOverflowPost.csproj", "{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_10_02_ClassesExercise2_stackOverflowPost", "t02_10_02_ClassesExercise2_stackOverflowPost\t02_10_02_ClassesExercise2_stackOverflowPost.csproj", "{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t03_02_Inheritance", "t03_02_Inheritance\t03_02_Inheritance.csproj", "{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
