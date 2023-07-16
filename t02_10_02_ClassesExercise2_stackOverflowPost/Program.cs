@@ -1,4 +1,6 @@
-﻿namespace t02_10_02_ClassesExercise2_stackOverflowPost
+﻿using System.Reflection;
+
+namespace t02_10_02_ClassesExercise2_stackOverflowPost
 {
     internal class Program
     {
@@ -22,7 +24,23 @@
             // This is procedural programming. Such programs are very fragile.
             // Making a change breaks many parts of the code.
 
-            Console.WriteLine("Hello, World!");
+            var post = new Post(
+                "Should I do exercises while learning C#?",
+                "When learning a programming language like C#, how beneficial is doing exercises?");
+            Console.WriteLine($" Post: {post.Title}");
+            Console.WriteLine($"       {post.Description}");
+
+            post.UpVote();
+            post.DownVote();
+            post.UpVote();
+            post.DownVote();
+            post.UpVote();
+            post.UpVote();
+            post.UpVote();
+            post.UpVote();
+            post.UpVote();
+
+            Console.WriteLine($"votes: {post.Vote}");
         }
     }
 }
