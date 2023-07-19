@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_10_01_ClassesExercise1_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t02_10_02_ClassesExercise2_stackOverflowPost", "t02_10_02_ClassesExercise2_stackOverflowPost\t02_10_02_ClassesExercise2_stackOverflowPost.csproj", "{5B728B6A-7A5D-42C0-A327-5DDBFFA7AD5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t03_02_Inheritance", "t03_02_Inheritance\t03_02_Inheritance.csproj", "{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t03_02_Inheritance", "t03_02_Inheritance\t03_02_Inheritance.csproj", "{C6E1E451-5E0A-42BF-A768-AD7029E4F34C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t03_03_Composition", "t03_03_Composition\t03_03_Composition.csproj", "{64A68036-2EBC-4AB6-9016-3146E46493C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t03_03_Composition", "t03_03_Composition\t03_03_Composition.csproj", "{64A68036-2EBC-4AB6-9016-3146E46493C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_01_AccesModifiers", "t04_01_AccesModifiers\t04_01_AccesModifiers.csproj", "{59ED3B34-DF2B-415E-A380-29CDB070CA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_01_AccesModifiersLibrary", "t04_01_AccesModifiersLibrary\t04_01_AccesModifiersLibrary.csproj", "{9656BA97-DECA-4FB6-B281-AB4B4B8374DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{64A68036-2EBC-4AB6-9016-3146E46493C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A68036-2EBC-4AB6-9016-3146E46493C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A68036-2EBC-4AB6-9016-3146E46493C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ED3B34-DF2B-415E-A380-29CDB070CA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ED3B34-DF2B-415E-A380-29CDB070CA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ED3B34-DF2B-415E-A380-29CDB070CA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ED3B34-DF2B-415E-A380-29CDB070CA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9656BA97-DECA-4FB6-B281-AB4B4B8374DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9656BA97-DECA-4FB6-B281-AB4B4B8374DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9656BA97-DECA-4FB6-B281-AB4B4B8374DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9656BA97-DECA-4FB6-B281-AB4B4B8374DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
