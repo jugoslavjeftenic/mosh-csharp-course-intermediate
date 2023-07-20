@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_03_CastingWPF", "t04_03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_04_Boxing", "t04_04_Boxing\t04_04_Boxing.csproj", "{72426F95-9B1E-41ED-AB9F-6D23B4678695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_06_InheritanceExercise_Stack", "t04_06_InheritanceExercise_Stack\t04_06_InheritanceExercise_Stack.csproj", "{8A23FFD6-507A-43F2-AE75-95D33DD10532}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{72426F95-9B1E-41ED-AB9F-6D23B4678695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72426F95-9B1E-41ED-AB9F-6D23B4678695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72426F95-9B1E-41ED-AB9F-6D23B4678695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
