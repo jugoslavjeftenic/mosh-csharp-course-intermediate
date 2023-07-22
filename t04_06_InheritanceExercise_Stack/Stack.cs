@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace t04_06_InheritanceExercise_Stack
+﻿namespace t04_06_InheritanceExercise_Stack
 {
     public class Stack
     {

@@ -1,11 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.Threading;
-using System.Xml.Linq;
-using System;
-using System.Collections;
-
-namespace t04_06_InheritanceExercise_Stack
+﻿namespace t04_06_InheritanceExercise_Stack
 {
     internal class Program
     {
