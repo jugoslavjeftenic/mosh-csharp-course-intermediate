@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Threading;
 using System.Xml.Linq;
 using System;
+using System.Collections;
 
 namespace t04_06_InheritanceExercise_Stack
 {
@@ -61,6 +62,30 @@ namespace t04_06_InheritanceExercise_Stack
             // Think of your browser. As you navigate the web, the address of each page you visit is stored in a stack.
             // As you click the Back button, the most recent address is popped.
             // This is because of the LIFO behaviour of stacks.
+
+            var stack = new Stack();
+
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(DateTime.Now);
+            stack.Push("Jugoslav");
+            stack.Push(true);
+            //stack.Push(null);
+            stack.Push(4);
+            stack.Push(5);
+            stack.Push(6);
+            stack.Push(7);
+            stack.Push(8);
+            stack.Push(9);
+            stack.Push(10);
+
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+
+            stack.Clear();
+            //Console.WriteLine(stack.Pop());
         }
     }
 }
