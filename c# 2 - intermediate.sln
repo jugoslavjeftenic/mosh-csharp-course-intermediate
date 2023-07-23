@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_01_MethodOverriding", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_02_AbstractClasses", "t05_02_AbstractClasses\t05_02_AbstractClasses.csproj", "{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_05_01_PolymorphismExercise1_DatabaseConnection", "t05_05_01_PolymorphismExercise1_DatabaseConnection\t05_05_01_PolymorphismExercise1_DatabaseConnection.csproj", "{D7B93F14-AC53-4C48-A112-990CEC7FA12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_05_02_PolymorphismExercise2_DatabaseCommand", "t05_05_02_PolymorphismExercise2_DatabaseCommand\t05_05_02_PolymorphismExercise2_DatabaseCommand.csproj", "{BA6ED772-D14A-44B5-9740-8484EA7D1EB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B93F14-AC53-4C48-A112-990CEC7FA12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B93F14-AC53-4C48-A112-990CEC7FA12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B93F14-AC53-4C48-A112-990CEC7FA12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B93F14-AC53-4C48-A112-990CEC7FA12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6ED772-D14A-44B5-9740-8484EA7D1EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6ED772-D14A-44B5-9740-8484EA7D1EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6ED772-D14A-44B5-9740-8484EA7D1EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6ED772-D14A-44B5-9740-8484EA7D1EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
