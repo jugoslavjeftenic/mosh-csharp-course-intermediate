@@ -31,13 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_01_AccesModifiersLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_02_Constructors", "t04_02_Constructors\t04_02_Constructors.csproj", "{DBA8555B-DA51-45D6-BF20-2CF5664C3586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_03_Casting", "t04_03_Casting\t04_03_Casting.csproj", "{DB53AFEF-90D9-4E68-8B5A-522C36973056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_03_Casting", "t04_03_Casting\t04_03_Casting.csproj", "{DB53AFEF-90D9-4E68-8B5A-522C36973056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_03_CastingWPF", "t04_03_CastingWPF\t04_03_CastingWPF.csproj", "{CF64C6F8-48E2-48EA-B44F-C0FBD4D9A495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_03_CastingWPF", "t04_03_CastingWPF\t04_03_CastingWPF.csproj", "{CF64C6F8-48E2-48EA-B44F-C0FBD4D9A495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_04_Boxing", "t04_04_Boxing\t04_04_Boxing.csproj", "{72426F95-9B1E-41ED-AB9F-6D23B4678695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_04_Boxing", "t04_04_Boxing\t04_04_Boxing.csproj", "{72426F95-9B1E-41ED-AB9F-6D23B4678695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_06_InheritanceExercise_Stack", "t04_06_InheritanceExercise_Stack\t04_06_InheritanceExercise_Stack.csproj", "{8A23FFD6-507A-43F2-AE75-95D33DD10532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_06_InheritanceExercise_Stack", "t04_06_InheritanceExercise_Stack\t04_06_InheritanceExercise_Stack.csproj", "{8A23FFD6-507A-43F2-AE75-95D33DD10532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_01_MethodOverriding", "t05_01_MethodOverriding\t05_01_MethodOverriding.csproj", "{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A23FFD6-507A-43F2-AE75-95D33DD10532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
