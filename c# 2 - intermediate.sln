@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_06_InheritanceExercise_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_01_MethodOverriding", "t05_01_MethodOverriding\t05_01_MethodOverriding.csproj", "{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_02_AbstractClasses", "t05_02_AbstractClasses\t05_02_AbstractClasses.csproj", "{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7083FEEA-D0C7-412E-8C75-A1D4D839D6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94D21A1-6DF7-4B5B-B8F0-8B7DD1B1A161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
