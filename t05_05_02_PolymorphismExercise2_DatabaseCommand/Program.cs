@@ -1,4 +1,6 @@
-﻿namespace t05_05_02_PolymorphismExercise2_DatabaseCommand
+﻿using t05_05_01_PolymorphismExercise1_DatabaseConnection;
+
+namespace t05_05_02_PolymorphismExercise2_DatabaseCommand
 {
     internal class Program
     {
@@ -35,6 +37,18 @@
             // In the main method, initialize a DbCommand with some string as the instruction and a SqlConnection.
             // Execute the command and see the result on the console.
             // Then, swap the SqlConnection with an OracleConnection and see polymorphism in action.
+
+            SqlConnection sqlConn = new SqlConnection("sqlconnection");
+            OracleConnection oracleConn = new OracleConnection("oracleconnection");
+
+            DbCommand dbCommand = new DbCommand(sqlConn, "Execute SQL Server instruction");
+            dbCommand.Execute();
+
+            Console.WriteLine();
+
+            dbCommand.DbConn = oracleConn;
+            dbCommand.Instruction = "Execute Oracle database instruction";
+            dbCommand.Execute();
         }
     }
 }
