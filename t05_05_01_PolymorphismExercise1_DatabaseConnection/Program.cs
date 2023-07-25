@@ -1,9 +1,4 @@
-﻿using System.Data.Common;
-using System.Runtime.InteropServices;
-using System.Security.Principal;
-using System;
-
-namespace t05_05_01_PolymorphismExercise1_DatabaseConnection
+﻿namespace t05_05_01_PolymorphismExercise1_DatabaseConnection
 {
     internal class Program
     {
@@ -39,6 +34,18 @@ namespace t05_05_01_PolymorphismExercise1_DatabaseConnection
             // simple implementation of opening and closing connections using Console.WriteLine().
             // In the real-world, SQL Server provides an API for opening or closing a connection to a database.
             // But for this exercise, we don’t need to worry about it.
+
+            SqlConnection sqlConnection = new SqlConnection("sqlconnection", 10);
+            Console.WriteLine($"Connection string: {sqlConnection.ConnectionString}, timeout: {sqlConnection.Timeout}");
+            sqlConnection.Open();
+            sqlConnection.Close();
+
+            Console.WriteLine();
+
+            OracleConnection oracleConnection = new OracleConnection("oracleconnection");
+            Console.WriteLine($"Connection string: {oracleConnection.ConnectionString}, timeout: {oracleConnection.Timeout}");
+            oracleConnection.Open();
+            oracleConnection.Close();
         }
     }
 }
