@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_05_02_PolymorphismExerc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_02_Testability", "t06_02_Testability\t06_02_Testability.csproj", "{4C010FDF-A82B-49AA-85F0-A11006F7A66F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_02_Testability.UnitTest", "t06_02_Testability.UnitTest\t06_02_Testability.UnitTest.csproj", "{CD196622-2558-4F00-B706-DC0FDFF021CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_02_Testability.UnitTest", "t06_02_Testability.UnitTest\t06_02_Testability.UnitTest.csproj", "{CD196622-2558-4F00-B706-DC0FDFF021CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_03_Extensibility", "t06_03_Extensibility\t06_03_Extensibility.csproj", "{ECC2AE47-EEA6-4B86-A103-2DFF877AD8CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{CD196622-2558-4F00-B706-DC0FDFF021CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD196622-2558-4F00-B706-DC0FDFF021CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD196622-2558-4F00-B706-DC0FDFF021CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2AE47-EEA6-4B86-A103-2DFF877AD8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2AE47-EEA6-4B86-A103-2DFF877AD8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2AE47-EEA6-4B86-A103-2DFF877AD8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2AE47-EEA6-4B86-A103-2DFF877AD8CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
