@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_03_Extensibility", "t06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_04_MultipleInterfaceInheritance", "t06_04_MultipleInterfaceInheritance\t06_04_MultipleInterfaceInheritance.csproj", "{34E092E7-5E14-4AD7-8735-8BBE0C0E3DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_05_Polymorphism", "t06_05_Polymorphism\t06_05_Polymorphism.csproj", "{0DE87AA3-B1B6-419C-9433-C6B4B8147765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{34E092E7-5E14-4AD7-8735-8BBE0C0E3DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E092E7-5E14-4AD7-8735-8BBE0C0E3DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E092E7-5E14-4AD7-8735-8BBE0C0E3DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE87AA3-B1B6-419C-9433-C6B4B8147765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE87AA3-B1B6-419C-9433-C6B4B8147765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE87AA3-B1B6-419C-9433-C6B4B8147765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE87AA3-B1B6-419C-9433-C6B4B8147765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
