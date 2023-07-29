@@ -33,7 +33,12 @@
             // Your focus should be on sending a workflow to the workflow engine and having it run the workflow and
             // all the activities inside it. We don’t care about the actual activities.
 
-            Console.WriteLine("Hello, World!");
+            var workflow = new WorkflowEngine();
+
+            workflow.RegisterWorkflow(new Order66());
+            workflow.RegisterWorkflow(new Activity69());
+
+            workflow.Run();
         }
     }
 }
