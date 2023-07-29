@@ -2,6 +2,8 @@
 {
     public interface IWorkflow
     {
-        void Execute();
+        void AddTask(ITask task);
+        void RemoveTask(ITask task);
+        IEnumerable<ITask> GetTasks();
     }
 }

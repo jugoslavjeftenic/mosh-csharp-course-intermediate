@@ -9,17 +9,12 @@
             _workflows = new List<IWorkflow>();
         }
 
-        public void Run()
+        public static void Run(IWorkflow workflow)
         {
-            foreach (var workflow in _workflows)
+            foreach (var wf in workflow.GetTasks())
             {
-                workflow.Execute();
+                wf.Execute();
             }
-        }
-
-        public void RegisterWorkflow(IWorkflow workflow)
-        {
-            _workflows.Add(workflow);
         }
     }
 }
